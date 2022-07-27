@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="container">
+  <div>
+
+  <p>Qns. {{question}}</p>
+  </div>
+  <textarea #answer id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+    <button class="btn btn-primary" (click)="submit(answer.value)">submit</button>
+    
+  
+</div>

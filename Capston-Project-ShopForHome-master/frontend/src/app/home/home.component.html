@@ -1,0 +1,12 @@
+<app-header></app-header>
+<div class="container">
+  <div class="questiondiv" *ngFor="let questions of questions.data">
+    <p class="question">Qn. {{questions.question}}</p>
+    <button type="button" *ngIf="answerButton" (click)=submit(questions.id) class="btn btn-success">answer</button>
+    <pre></pre>
+    <div *ngFor="let answer of questions.answers">
+      <p>ans</p>
+      <p class="answer">{{answer.answer}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.container{
+    background-color: lightgrey;
+}
+.questiondiv{
+    background-color: white;
+    padding-left:10px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+
+}
+.question{
+    font-family: Georgia, serif;
+    color: red;
+}
+
+button{
+    align-items: right;
+}
+.answer{
+    padding-left: 15px;
+    color: green;
+}
